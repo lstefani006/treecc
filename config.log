@@ -138,11 +138,11 @@ configure:3840: checking lex output file root
 configure:3856: result: lex.yy
 configure:3861: checking lex library
 configure:3880: gcc -o conftest -g -O2   conftest.c   >&5
-/tmp/cc167Hvh.o: In function `input':
+/tmp/ccD9k6wi.o: In function `input':
 /home/leo/treecc-20070108/lex.yy.c:1172: undefined reference to `yywrap'
-/tmp/cc167Hvh.o: In function `yylex':
+/tmp/ccD9k6wi.o: In function `yylex':
 /home/leo/treecc-20070108/lex.yy.c:870: undefined reference to `yywrap'
-/tmp/cc167Hvh.o: In function `main':
+/tmp/ccD9k6wi.o: In function `main':
 /home/leo/treecc-20070108/conftest.l:17: undefined reference to `yywrap'
 collect2: error: ld returned 1 exit status
 configure:3886: $? = 1
@@ -2177,7 +2177,7 @@ configure:5083: $? = 0
 configure:5101: result: yes
 configure:5021: checking for _vsnprintf
 configure:5077: gcc -o conftest -g -O2 -Wall   conftest.c  >&5
-/tmp/cckfLU1k.o: In function `main':
+/tmp/cc47noJ4.o: In function `main':
 /home/leo/treecc-20070108/conftest.c:66: undefined reference to `_vsnprintf'
 collect2: error: ld returned 1 exit status
 configure:5083: $? = 1
@@ -2305,6 +2305,7 @@ config.status:662: creating tests/Makefile
 config.status:662: creating examples/Makefile
 config.status:662: creating treecc.spec
 config.status:662: creating config.h
+config.status:899: config.h is unchanged
 config.status:945: executing depfiles commands
 
 ## ---------------- ##
