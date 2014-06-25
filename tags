@@ -1,0 +1,620 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AbstractFactoryOption	options.c	/^static int AbstractFactoryOption(TreeCCContext *context, char *value, int flag)$/;"	f	file:
+AddToHash	node.c	/^static void AddToHash(TreeCCContext *context, TreeCCNode *node)$/;"	f	file:
+AllocatorOption	options.c	/^static int AllocatorOption(TreeCCContext *context, char *value, int flag)$/;"	f	file:
+AppendParam	oper.c	/^static char *AppendParam(TreeCCContext *context, char *str, const char *type)$/;"	f	file:
+AppendStrings	parse.c	/^static char *AppendStrings(TreeCCInput *input, char *str1,$/;"	f	file:
+AssignPositions	node.c	/^static int AssignPositions(TreeCCNode *node, int posn)$/;"	f	file:
+AssignTriggerPosns	gen.c	/^static void AssignTriggerPosns(TreeCCContext *context, TreeCCOperation *oper)$/;"	f	file:
+BaseOption	options.c	/^static int BaseOption(TreeCCContext *context, char *value, int flag)$/;"	f	file:
+BaseTypeOption	options.c	/^static int BaseTypeOption(TreeCCContext *context, char *value, int flag)$/;"	f	file:
+BlockSizeOption	options.c	/^static int BlockSizeOption(TreeCCContext *context, char *value, int flag)$/;"	f	file:
+BuildTypeDecls	gen_c.c	/^static void BuildTypeDecls(TreeCCContext *context,$/;"	f	file:
+BuildTypeDecls	gen_cpp.c	/^static void BuildTypeDecls(TreeCCContext *context,$/;"	f	file:
+BuildTypeDecls	gen_cs.c	/^static void BuildTypeDecls(TreeCCContext *context,$/;"	f	file:
+BuildTypeDecls	gen_java.c	/^static void BuildTypeDecls(TreeCCContext *context,$/;"	f	file:
+BuildTypeDecls	gen_php.c	/^static void BuildTypeDecls(TreeCCContext *context,$/;"	f	file:
+BuildTypeDecls	gen_ruby.c	/^static void BuildTypeDecls(TreeCCContext *context,$/;"	f	file:
+CGenEntry	gen_c.c	/^static void CGenEntry(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+C_GenCaseCall	gen_c.c	/^static void C_GenCaseCall(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+C_GenCaseFunc	gen_c.c	/^static void C_GenCaseFunc(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+C_GenCaseInline	gen_c.c	/^static void C_GenCaseInline(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+C_GenCaseSplit	gen_c.c	/^static void C_GenCaseSplit(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+C_GenEnd	gen_c.c	/^static void C_GenEnd(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+C_GenEndCase	gen_c.c	/^static void C_GenEndCase(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+C_GenEndSelectors	gen_c.c	/^static void C_GenEndSelectors(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+C_GenEndSwitch	gen_c.c	/^static void C_GenEndSwitch(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+C_GenEntry	gen_c.c	/^static void C_GenEntry(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+C_GenExit	gen_c.c	/^static void C_GenExit(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+C_GenSelector	gen_c.c	/^static void C_GenSelector(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+C_GenSplitEntry	gen_c.c	/^static void C_GenSplitEntry(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+C_GenStart	gen_c.c	/^static void C_GenStart(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+C_GenSwitchHead	gen_c.c	/^static void C_GenSwitchHead(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+CaseCompare	oper.c	/^static int CaseCompare(const void *e1, const void *e2)$/;"	f	file:
+ConvertType	gen_java.c	/^static const char *ConvertType(TreeCCContext *context, char *type)$/;"	f	file:
+CreateNodeStreams	gen_java.c	/^static void CreateNodeStreams(TreeCCContext *context, TreeCCNode *node)$/;"	f	file:
+CreateNonVirtualStreams	gen_java.c	/^static void CreateNonVirtualStreams(TreeCCContext *context,$/;"	f	file:
+CreateParams	gen_c.c	/^static int CreateParams(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+CreateParams	gen_cpp.c	/^static int CreateParams(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+CreateParams	gen_cs.c	/^static int CreateParams(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+CreateParams	gen_java.c	/^static int CreateParams(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+CreateParams	gen_php.c	/^static int CreateParams(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+CreateParams	gen_ruby.c	/^static int CreateParams(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+CreateParamsSource	gen_c.c	/^static int CreateParamsSource(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+CreateParamsSource	gen_cpp.c	/^static int CreateParamsSource(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+DeclareCreateFuncs	gen_c.c	/^static void DeclareCreateFuncs(TreeCCContext *context,$/;"	f	file:
+DeclareCreateFuncs	gen_cpp.c	/^static void DeclareCreateFuncs(TreeCCContext *context, TreeCCNode *node)$/;"	f	file:
+DeclareFields	gen_c.c	/^static void DeclareFields(TreeCCContext *context,$/;"	f	file:
+DeclareFields	gen_cpp.c	/^static void DeclareFields(TreeCCContext *context,$/;"	f	file:
+DeclareFields	gen_cs.c	/^static void DeclareFields(TreeCCContext *context,$/;"	f	file:
+DeclareFields	gen_java.c	/^static void DeclareFields(TreeCCContext *context,$/;"	f	file:
+DeclareFields	gen_php.c	/^static void DeclareFields(TreeCCContext *context,$/;"	f	file:
+DeclareNonVirtuals	gen_c.c	/^static void DeclareNonVirtuals(TreeCCContext *context,$/;"	f	file:
+DeclareNonVirtuals	gen_cpp.c	/^static void DeclareNonVirtuals(TreeCCContext *context,$/;"	f	file:
+DeclareStateType	gen_cpp.c	/^static void DeclareStateType(TreeCCContext *context, TreeCCStream *stream)$/;"	f	file:
+DeclareTypeDefs	gen_c.c	/^static void DeclareTypeDefs(TreeCCContext *context,$/;"	f	file:
+DeclareTypeDefs	gen_cpp.c	/^static void DeclareTypeDefs(TreeCCContext *context,$/;"	f	file:
+DeclareTypeDefs	gen_cs.c	/^static void DeclareTypeDefs(TreeCCContext *context,$/;"	f	file:
+DeclareTypeDefs	gen_java.c	/^static void DeclareTypeDefs(TreeCCContext *context,$/;"	f	file:
+DeclareTypeDefs	gen_php.c	/^static void DeclareTypeDefs(TreeCCContext *context,$/;"	f	file:
+DeclareTypeDefs	gen_ruby.c	/^static void DeclareTypeDefs(TreeCCContext *context,$/;"	f	file:
+DeclareVirtualImpls	gen_c.c	/^static int DeclareVirtualImpls(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+DeclareVirtualMacros	gen_c.c	/^static void DeclareVirtualMacros(TreeCCContext *context,$/;"	f	file:
+DeclareVirtuals	gen_c.c	/^static void DeclareVirtuals(TreeCCContext *context,$/;"	f	file:
+DeclareVirtuals	gen_cpp.c	/^static void DeclareVirtuals(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+DefineNodeNumbers	gen_c.c	/^static void DefineNodeNumbers(TreeCCContext *context,$/;"	f	file:
+DefineNodeNumbers	gen_cpp.c	/^static void DefineNodeNumbers(TreeCCContext *context,$/;"	f	file:
+DefineVtables	gen_c.c	/^static void DefineVtables(TreeCCContext *context,$/;"	f	file:
+ExtraOptions	main.c	/^static int ExtraOptions(TreeCCContext *context, char **options, int num)$/;"	f	file:
+FactoryCreateParams	gen_cpp.c	/^static int FactoryCreateParams(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+FactoryCreateParams	gen_cs.c	/^static int FactoryCreateParams(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+FactoryCreateParams	gen_java.c	/^static int FactoryCreateParams(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+FactoryCreateParams	gen_php.c	/^static int FactoryCreateParams(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+FactoryCreateParams	gen_ruby.c	/^static int FactoryCreateParams(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+FactoryInvokeParams	gen_cpp.c	/^static int FactoryInvokeParams(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+FactoryInvokeParams	gen_cs.c	/^static int FactoryInvokeParams(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+FactoryInvokeParams	gen_java.c	/^static int FactoryInvokeParams(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+FactoryInvokeParams	gen_php.c	/^static int FactoryInvokeParams(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+FactoryInvokeParams	gen_ruby.c	/^static int FactoryInvokeParams(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+FinalizeBuffer	input.c	/^static void FinalizeBuffer(TreeCCInput *input, int len, int currlen)$/;"	f	file:
+FindSkeletonString	skeleton.c	/^static char *FindSkeletonString(const char *skeleton)$/;"	f	file:
+FlushBuffer	input.c	/^static int FlushBuffer(TreeCCInput *input, int len, int currlen)$/;"	f	file:
+ForceOption	options.c	/^static int ForceOption(TreeCCContext *context, char *value, int flag)$/;"	f	file:
+GCAllocatorOption	options.c	/^static int GCAllocatorOption(TreeCCContext *context, char *value, int flag)$/;"	f	file:
+GenerateMultiScan	gen.c	/^static void GenerateMultiScan(TreeCCContext *context,$/;"	f	file:
+GenerateMultiSwitch	gen.c	/^static void GenerateMultiSwitch(TreeCCContext *context,$/;"	f	file:
+GenerateNonVirtual	gen.c	/^static void GenerateNonVirtual(TreeCCContext *context,$/;"	f	file:
+GenerateSelectors	gen.c	/^static int GenerateSelectors(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+GenerateSplitMultiScan	gen.c	/^static void GenerateSplitMultiScan(TreeCCContext *context,$/;"	f	file:
+GenerateSplitMultiScanFunc	gen.c	/^static void GenerateSplitMultiScanFunc(TreeCCContext *context,$/;"	f	file:
+GenerateSplitMultiSwitch	gen.c	/^static void GenerateSplitMultiSwitch(TreeCCContext *context,$/;"	f	file:
+GenerateSwitch	gen.c	/^static TreeCCOperationCase *GenerateSwitch$/;"	f	file:
+GetDefault	main.c	/^static char *GetDefault(const char *filename, const char *extension)$/;"	f	file:
+HAVE_ACCESS	config.h	5;"	d
+HAVE_INTTYPES_H	config.h	8;"	d
+HAVE_MEMCMP	config.h	11;"	d
+HAVE_MEMCPY	config.h	14;"	d
+HAVE_MEMORY_H	config.h	17;"	d
+HAVE_QSORT	config.h	20;"	d
+HAVE_STAT	config.h	23;"	d
+HAVE_STDARG_H	config.h	26;"	d
+HAVE_STDINT_H	config.h	29;"	d
+HAVE_STDLIB_H	config.h	32;"	d
+HAVE_STRCHR	config.h	35;"	d
+HAVE_STRINGS_H	config.h	38;"	d
+HAVE_STRING_H	config.h	41;"	d
+HAVE_SYS_STAT_H	config.h	44;"	d
+HAVE_SYS_TYPES_H	config.h	47;"	d
+HAVE_UNISTD_H	config.h	50;"	d
+HAVE_VFPRINTF	config.h	56;"	d
+HAVE_VSNPRINTF	config.h	59;"	d
+HAVE_VSPRINTF	config.h	62;"	d
+HasAbstracts	node.c	/^static int HasAbstracts(TreeCCContext *context, TreeCCNode *node,$/;"	f	file:
+HashStringLen	node.c	/^static unsigned int HashStringLen(const char *str, int len)$/;"	f	file:
+IS_IDENT	input.c	63;"	d	file:
+IS_START_IDENT	input.c	60;"	d	file:
+ImplementConstructor	gen_cpp.c	/^static void ImplementConstructor(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+ImplementCreateFuncs	gen_c.c	/^static void ImplementCreateFuncs(TreeCCContext *context,$/;"	f	file:
+ImplementCreateFuncs	gen_cpp.c	/^static void ImplementCreateFuncs(TreeCCContext *context, TreeCCNode *node)$/;"	f	file:
+ImplementCreateFuncs	gen_cs.c	/^static void ImplementCreateFuncs(TreeCCContext *context, TreeCCNode *node)$/;"	f	file:
+ImplementCreateFuncs	gen_java.c	/^static void ImplementCreateFuncs(TreeCCContext *context, TreeCCNode *node)$/;"	f	file:
+ImplementCreateFuncs	gen_php.c	/^static void ImplementCreateFuncs(TreeCCContext *context, TreeCCNode *node)$/;"	f	file:
+ImplementCreateFuncs	gen_ruby.c	/^static void ImplementCreateFuncs(TreeCCContext *context, TreeCCNode *node)$/;"	f	file:
+ImplementNodeTypes	gen_cpp.c	/^static void ImplementNodeTypes(TreeCCContext *context, TreeCCNode *node)$/;"	f	file:
+ImplementStateType	gen_cpp.c	/^static void ImplementStateType(TreeCCContext *context, TreeCCStream *stream)$/;"	f	file:
+ImplementStateType	gen_cs.c	/^static void ImplementStateType(TreeCCContext *context, TreeCCStream *stream)$/;"	f	file:
+ImplementStateType	gen_java.c	/^static void ImplementStateType(TreeCCContext *context, TreeCCStream *stream)$/;"	f	file:
+ImplementStateType	gen_php.c	/^static void ImplementStateType(TreeCCContext *context, TreeCCStream *stream)$/;"	f	file:
+ImplementStateType	gen_ruby.c	/^static void ImplementStateType(TreeCCContext *context, TreeCCStream *stream)$/;"	f	file:
+ImplementVirtuals	gen_cpp.c	/^static void ImplementVirtuals(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+ImplementVirtuals	gen_cs.c	/^static void ImplementVirtuals(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+ImplementVirtuals	gen_java.c	/^static void ImplementVirtuals(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+ImplementVirtuals	gen_php.c	/^static void ImplementVirtuals(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+ImplementVirtuals	gen_ruby.c	/^static void ImplementVirtuals(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Indent	gen_c.c	/^static void Indent(TreeCCStream *stream, int indent)$/;"	f	file:
+Indent	gen_java.c	/^static void Indent(TreeCCStream *stream, int indent)$/;"	f	file:
+Indent	gen_php.c	/^static void Indent(TreeCCStream *stream, int indent)$/;"	f	file:
+Indent	gen_ruby.c	/^static void Indent(TreeCCStream *stream, int indent)$/;"	f	file:
+InheritParamsSource	gen_cpp.c	/^static int InheritParamsSource(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+InheritParamsSource	gen_cs.c	/^static int InheritParamsSource(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+InheritParamsSource	gen_java.c	/^static int InheritParamsSource(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+InheritParamsSource	gen_php.c	/^static int InheritParamsSource(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+InheritParamsSource	gen_ruby.c	/^static int InheritParamsSource(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+InitFields	gen_c.c	/^static void InitFields(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+InternalAccessOption	options.c	/^static int InternalAccessOption(TreeCCContext *context, char *value, int flag)$/;"	f	file:
+InvalidChar	input.c	/^static void InvalidChar(TreeCCInput *input, int ch)$/;"	f	file:
+IsDeclared	node.c	/^static int IsDeclared(TreeCCContext *context, TreeCCNode *node,$/;"	f	file:
+IsDeclaredInChildren	node.c	/^static int IsDeclaredInChildren(TreeCCContext *context, TreeCCNode *node,$/;"	f	file:
+IsEnumType	gen_c.c	/^static int IsEnumType(TreeCCContext *context, const char *type)$/;"	f	file:
+IsEnumType	gen_java.c	/^static int IsEnumType(TreeCCContext *context, const char *type)$/;"	f	file:
+IsEnumType	gen_php.c	/^static int IsEnumType(TreeCCContext *context, const char *type)$/;"	f	file:
+IsEnumType	gen_ruby.c	/^static int IsEnumType(TreeCCContext *context, const char *type)$/;"	f	file:
+IsStartDecl	parse.c	1155;"	d	file:
+JavaGenEntry	gen_java.c	/^static void JavaGenEntry(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Java_GenCaseCall	gen_java.c	/^static void Java_GenCaseCall(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Java_GenCaseFunc	gen_java.c	/^static void Java_GenCaseFunc(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Java_GenCaseInline	gen_java.c	/^static void Java_GenCaseInline(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Java_GenCaseSplit	gen_java.c	/^static void Java_GenCaseSplit(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Java_GenEnd	gen_java.c	/^static void Java_GenEnd(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Java_GenEndCase	gen_java.c	/^static void Java_GenEndCase(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Java_GenEndSelectors	gen_java.c	/^static void Java_GenEndSelectors(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Java_GenEndSwitch	gen_java.c	/^static void Java_GenEndSwitch(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Java_GenEntry	gen_java.c	/^static void Java_GenEntry(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Java_GenExit	gen_java.c	/^static void Java_GenExit(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Java_GenSelector	gen_java.c	/^static void Java_GenSelector(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Java_GenSplitEntry	gen_java.c	/^static void Java_GenSplitEntry(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Java_GenStart	gen_java.c	/^static void Java_GenStart(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Java_GenSwitchHead	gen_java.c	/^static void Java_GenSwitchHead(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+KeywordTable	input.c	/^} const KeywordTable[] = {$/;"	v	file:
+KeywordTableSize	input.c	622;"	d	file:
+KindInVtableOption	options.c	/^static int KindInVtableOption(TreeCCContext *context, char *value, int flag)$/;"	f	file:
+LangOption	options.c	/^static int LangOption(TreeCCContext *context, char *value, int flag)$/;"	f	file:
+LevelsMatch	gen.c	/^static int LevelsMatch(TreeCCOperationCase *operCase1,$/;"	f	file:
+LiteralCode	input.c	/^static void LiteralCode(TreeCCInput *input)$/;"	f	file:
+LiteralCodeDefn	input.c	/^static void LiteralCodeDefn(TreeCCInput *input, int tillEnd)$/;"	f	file:
+LiteralEOF	input.c	/^static void LiteralEOF(TreeCCInput *input)$/;"	f	file:
+MarkMultiCase	oper.c	/^static void MarkMultiCase(TreeCCOperationCase **sortedCases, int base,$/;"	f	file:
+MarkMultiScan	oper.c	/^static void MarkMultiScan(TreeCCOperationCase **sortedCases, int base,$/;"	f	file:
+MemCmp	stream.c	/^static int MemCmp(const char *s1, const char *s2, int size)$/;"	f	file:
+MemCmp	stream.c	209;"	d	file:
+MultiCoverageTest	oper.c	/^static void MultiCoverageTest(TreeCCContext *context, TreeCCOperation *oper)$/;"	f	file:
+NamespaceOption	options.c	/^static int NamespaceOption(TreeCCContext *context, char *value, int flag)$/;"	f	file:
+NoSingletonsOption	options.c	/^static int NoSingletonsOption(TreeCCContext *context, char *value, int flag)$/;"	f	file:
+OperationTest	oper.c	/^static void OperationTest(TreeCCContext *context, TreeCCOperation *oper)$/;"	f	file:
+OptionHandlers	options.c	/^} const OptionHandlers[] = {$/;"	v	file:
+OutputDefns	stream.c	/^static void OutputDefns(TreeCCStream *stream, int atEnd)$/;"	f	file:
+OutputHelpers	gen_c.c	/^static void OutputHelpers(TreeCCContext *context)$/;"	f	file:
+OutputIsA	gen_c.c	/^static void OutputIsA(TreeCCContext *context)$/;"	f	file:
+OutputMacroName	stream.c	/^static void OutputMacroName(TreeCCStream *stream, const char *filename)$/;"	f	file:
+OutputVtableFuncs	gen_c.c	/^static void OutputVtableFuncs(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+OutputVtableImpls	gen_c.c	/^static void OutputVtableImpls(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+PACKAGE	config.h	68;"	d
+PACKAGE_BUGREPORT	config.h	71;"	d
+PACKAGE_NAME	config.h	74;"	d
+PACKAGE_STRING	config.h	77;"	d
+PACKAGE_TARNAME	config.h	80;"	d
+PACKAGE_VERSION	config.h	83;"	d
+PHPGenEntry	gen_php.c	/^static void PHPGenEntry(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+PHP_GenCaseCall	gen_php.c	/^static void PHP_GenCaseCall(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+PHP_GenCaseFunc	gen_php.c	/^static void PHP_GenCaseFunc(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+PHP_GenCaseInline	gen_php.c	/^static void PHP_GenCaseInline(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+PHP_GenCaseSplit	gen_php.c	/^static void PHP_GenCaseSplit(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+PHP_GenEnd	gen_php.c	/^static void PHP_GenEnd(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+PHP_GenEndCase	gen_php.c	/^static void PHP_GenEndCase(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+PHP_GenEndSelectors	gen_php.c	/^static void PHP_GenEndSelectors(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+PHP_GenEndSwitch	gen_php.c	/^static void PHP_GenEndSwitch(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+PHP_GenEntry	gen_php.c	/^static void PHP_GenEntry(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+PHP_GenExit	gen_php.c	/^static void PHP_GenExit(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+PHP_GenSelector	gen_php.c	/^static void PHP_GenSelector(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+PHP_GenSplitEntry	gen_php.c	/^static void PHP_GenSplitEntry(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+PHP_GenStart	gen_php.c	/^static void PHP_GenStart(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+PHP_GenSwitchHead	gen_php.c	/^static void PHP_GenSwitchHead(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+PTreeCCContext	stream.h	/^typedef struct _tagTreeCCContext *PTreeCCContext;$/;"	t	typeref:struct:_tagTreeCCContext
+ParseEnum	parse.c	/^static void ParseEnum(TreeCCContext *context)$/;"	f	file:
+ParseNode	parse.c	/^static void ParseNode(TreeCCContext *context)$/;"	f	file:
+ParseOperation	parse.c	/^static void ParseOperation(TreeCCContext *context)$/;"	f	file:
+ParseOperationCase	parse.c	/^static void ParseOperationCase(TreeCCContext *context)$/;"	f	file:
+ParseOperationHeader	parse.c	/^static TreeCCOperationCase *ParseOperationHeader(TreeCCContext *context)$/;"	f	file:
+ParseOption	parse.c	/^static void ParseOption(TreeCCContext *context)$/;"	f	file:
+ParseTypeAndName	parse.c	/^static void ParseTypeAndName(TreeCCInput *input, char **type, char **name)$/;"	f	file:
+PrefixOption	options.c	/^static int PrefixOption(TreeCCContext *context, char *value, int flag)$/;"	f	file:
+PrintLineNumberOption	options.c	/^static int PrintLineNumberOption(TreeCCContext *context, char *value, int flag)$/;"	f	file:
+ReadSkeletonLine	skeleton.c	/^static int ReadSkeletonLine(char *buffer, int size, char **skel)$/;"	f	file:
+RecogIdentifier	input.c	/^static void RecogIdentifier(TreeCCInput *input, int ch, const char *name)$/;"	f	file:
+RecogString	input.c	/^static void RecogString(TreeCCInput *input, int quotech)$/;"	f	file:
+ReentrantOption	options.c	/^static int ReentrantOption(TreeCCContext *context, char *value, int flag)$/;"	f	file:
+ReportError	errors.c	/^static void ReportError(char *filename, long linenum,$/;"	f	file:
+RubyGenEntry	gen_ruby.c	/^static void RubyGenEntry(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Ruby_GenCaseCall	gen_ruby.c	/^static void Ruby_GenCaseCall(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Ruby_GenCaseFunc	gen_ruby.c	/^static void Ruby_GenCaseFunc(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Ruby_GenCaseInline	gen_ruby.c	/^static void Ruby_GenCaseInline(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Ruby_GenCaseSplit	gen_ruby.c	/^static void Ruby_GenCaseSplit(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Ruby_GenEnd	gen_ruby.c	/^static void Ruby_GenEnd(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Ruby_GenEndCase	gen_ruby.c	/^static void Ruby_GenEndCase(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Ruby_GenEndSelectors	gen_ruby.c	/^static void Ruby_GenEndSelectors(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Ruby_GenEndSwitch	gen_ruby.c	/^static void Ruby_GenEndSwitch(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Ruby_GenEntry	gen_ruby.c	/^static void Ruby_GenEntry(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Ruby_GenExit	gen_ruby.c	/^static void Ruby_GenExit(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Ruby_GenSelector	gen_ruby.c	/^static void Ruby_GenSelector(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Ruby_GenSplitEntry	gen_ruby.c	/^static void Ruby_GenSplitEntry(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Ruby_GenStart	gen_ruby.c	/^static void Ruby_GenStart(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+Ruby_GenSwitchHead	gen_ruby.c	/^static void Ruby_GenSwitchHead(TreeCCContext *context, TreeCCStream *stream,$/;"	f	file:
+STDC_HEADERS	config.h	86;"	d
+SortCases	oper.c	/^static void SortCases(TreeCCContext *context, TreeCCOperation *oper)$/;"	f	file:
+StateTypeOption	options.c	/^static int StateTypeOption(TreeCCContext *context, char *value, int flag)$/;"	f	file:
+StreamPut	stream.c	476;"	d	file:
+StripFilenamesOption	options.c	/^static int StripFilenamesOption(TreeCCContext *context, char *value, int flag)$/;"	f	file:
+TREECC_BUFSIZ	input.h	77;"	d
+TREECC_ERRFMT	errors.h	33;"	d
+TREECC_ERRFMT	errors.h	36;"	d
+TREECC_FIELD_NOCREATE	info.h	44;"	d
+TREECC_HASH_SIZE	info.h	198;"	d
+TREECC_LANG_C	info.h	72;"	d
+TREECC_LANG_CPP	info.h	73;"	d
+TREECC_LANG_CSHARP	info.h	75;"	d
+TREECC_LANG_JAVA	info.h	74;"	d
+TREECC_LANG_PHP	info.h	77;"	d
+TREECC_LANG_RUBY	info.h	76;"	d
+TREECC_LITERAL_CODE	info.h	276;"	d
+TREECC_LITERAL_DECLS	info.h	277;"	d
+TREECC_LITERAL_END	info.h	278;"	d
+TREECC_NODE_ABSTRACT	info.h	50;"	d
+TREECC_NODE_ENUM	info.h	52;"	d
+TREECC_NODE_ENUM_VALUE	info.h	53;"	d
+TREECC_NODE_MARK	info.h	54;"	d
+TREECC_NODE_MARK_BITS	info.h	55;"	d
+TREECC_NODE_TYPEDEF	info.h	51;"	d
+TREECC_NODE_UNDEFINED	info.h	49;"	d
+TREECC_OPER_INLINE	info.h	61;"	d
+TREECC_OPER_SPLIT	info.h	62;"	d
+TREECC_OPER_VIRTUAL	info.h	60;"	d
+TREECC_OPT_INVALID_VALUE	options.h	34;"	d
+TREECC_OPT_KEEP_VALUE	options.h	32;"	d
+TREECC_OPT_NEED_VALUE	options.h	35;"	d
+TREECC_OPT_NO_VALUE	options.h	36;"	d
+TREECC_OPT_OK	options.h	31;"	d
+TREECC_OPT_UNKNOWN	options.h	33;"	d
+TREECC_PARAM_TRIGGER	info.h	67;"	d
+TREECC_PRNFMT	stream.h	126;"	d
+TREECC_PRNFMT	stream.h	129;"	d
+TREECC_STREAM_BUFSIZ	stream.h	31;"	d
+TREECC_TOKEN_ABSTRACT	input.h	/^	TREECC_TOKEN_ABSTRACT,$/;"	e	enum:__anon4
+TREECC_TOKEN_BOTH	input.h	/^	TREECC_TOKEN_BOTH,$/;"	e	enum:__anon4
+TREECC_TOKEN_COLON_COLON	input.h	/^	TREECC_TOKEN_COLON_COLON,$/;"	e	enum:__anon4
+TREECC_TOKEN_COMMA	input.h	/^	TREECC_TOKEN_COMMA,$/;"	e	enum:__anon4
+TREECC_TOKEN_COMMON	input.h	/^	TREECC_TOKEN_COMMON,$/;"	e	enum:__anon4
+TREECC_TOKEN_DECLS	input.h	/^	TREECC_TOKEN_DECLS,$/;"	e	enum:__anon4
+TREECC_TOKEN_END	input.h	/^	TREECC_TOKEN_END,$/;"	e	enum:__anon4
+TREECC_TOKEN_ENUM	input.h	/^	TREECC_TOKEN_ENUM,$/;"	e	enum:__anon4
+TREECC_TOKEN_EOF	input.h	/^	TREECC_TOKEN_EOF,$/;"	e	enum:__anon4
+TREECC_TOKEN_EQUALS	input.h	/^	TREECC_TOKEN_EQUALS,$/;"	e	enum:__anon4
+TREECC_TOKEN_HEADER	input.h	/^	TREECC_TOKEN_HEADER,$/;"	e	enum:__anon4
+TREECC_TOKEN_IDENTIFIER	input.h	/^	TREECC_TOKEN_IDENTIFIER,$/;"	e	enum:__anon4
+TREECC_TOKEN_INCLUDE	input.h	/^	TREECC_TOKEN_INCLUDE,$/;"	e	enum:__anon4
+TREECC_TOKEN_INLINE	input.h	/^	TREECC_TOKEN_INLINE,$/;"	e	enum:__anon4
+TREECC_TOKEN_LBRACE	input.h	/^	TREECC_TOKEN_LBRACE,$/;"	e	enum:__anon4
+TREECC_TOKEN_LITERAL_CODE	input.h	/^	TREECC_TOKEN_LITERAL_CODE,$/;"	e	enum:__anon4
+TREECC_TOKEN_LITERAL_DEFNS	input.h	/^	TREECC_TOKEN_LITERAL_DEFNS,$/;"	e	enum:__anon4
+TREECC_TOKEN_LITERAL_END	input.h	/^	TREECC_TOKEN_LITERAL_END,$/;"	e	enum:__anon4
+TREECC_TOKEN_LPAREN	input.h	/^	TREECC_TOKEN_LPAREN,$/;"	e	enum:__anon4
+TREECC_TOKEN_LSQUARE	input.h	/^	TREECC_TOKEN_LSQUARE,$/;"	e	enum:__anon4
+TREECC_TOKEN_NOCREATE	input.h	/^	TREECC_TOKEN_NOCREATE,$/;"	e	enum:__anon4
+TREECC_TOKEN_NODE	input.h	/^	TREECC_TOKEN_NODE,$/;"	e	enum:__anon4
+TREECC_TOKEN_OPERATION	input.h	/^	TREECC_TOKEN_OPERATION,$/;"	e	enum:__anon4
+TREECC_TOKEN_OPTION	input.h	/^	TREECC_TOKEN_OPTION,$/;"	e	enum:__anon4
+TREECC_TOKEN_OUTDIR	input.h	/^	TREECC_TOKEN_OUTDIR,$/;"	e	enum:__anon4
+TREECC_TOKEN_OUTPUT	input.h	/^	TREECC_TOKEN_OUTPUT,$/;"	e	enum:__anon4
+TREECC_TOKEN_RBRACE	input.h	/^	TREECC_TOKEN_RBRACE,$/;"	e	enum:__anon4
+TREECC_TOKEN_READONLY	input.h	/^	TREECC_TOKEN_READONLY,$/;"	e	enum:__anon4
+TREECC_TOKEN_REF	input.h	/^	TREECC_TOKEN_REF,$/;"	e	enum:__anon4
+TREECC_TOKEN_RPAREN	input.h	/^	TREECC_TOKEN_RPAREN,$/;"	e	enum:__anon4
+TREECC_TOKEN_RSQUARE	input.h	/^	TREECC_TOKEN_RSQUARE,$/;"	e	enum:__anon4
+TREECC_TOKEN_SEMI	input.h	/^	TREECC_TOKEN_SEMI,$/;"	e	enum:__anon4
+TREECC_TOKEN_SPLIT	input.h	/^	TREECC_TOKEN_SPLIT,$/;"	e	enum:__anon4
+TREECC_TOKEN_STAR	input.h	/^	TREECC_TOKEN_STAR,$/;"	e	enum:__anon4
+TREECC_TOKEN_STRING	input.h	/^	TREECC_TOKEN_STRING,$/;"	e	enum:__anon4
+TREECC_TOKEN_TYPEDEF	input.h	/^	TREECC_TOKEN_TYPEDEF,$/;"	e	enum:__anon4
+TREECC_TOKEN_UNKNOWN	input.h	/^	TREECC_TOKEN_UNKNOWN,$/;"	e	enum:__anon4
+TREECC_TOKEN_VIRTUAL	input.h	/^	TREECC_TOKEN_VIRTUAL,$/;"	e	enum:__anon4
+TrackLinesOption	options.c	/^static int TrackLinesOption(TreeCCContext *context, char *value, int flag)$/;"	f	file:
+TreeCCAbort	errors.c	/^void TreeCCAbort(TreeCCInput *input, const char *format, ...)$/;"	f
+TreeCCAddLiteralDefn	literal.c	/^void TreeCCAddLiteralDefn(TreeCCContext *context, char *code, int flags)$/;"	f
+TreeCCClose	input.c	/^void TreeCCClose(TreeCCInput *input, int closeRaw)$/;"	f
+TreeCCContext	info.h	/^} TreeCCContext;$/;"	t	typeref:struct:_tagTreeCCContext
+TreeCCContextCreate	context.c	/^TreeCCContext *TreeCCContextCreate(TreeCCInput *input)$/;"	f
+TreeCCContextDestroy	context.c	/^void TreeCCContextDestroy(TreeCCContext *context)$/;"	f
+TreeCCDebug	errors.c	/^void TreeCCDebug(long linenum, const char *format, ...)$/;"	f
+TreeCCDupString	stream.c	/^char *TreeCCDupString(char *str)$/;"	f
+TreeCCError	errors.c	/^void TreeCCError(TreeCCInput *input, const char *format, ...)$/;"	f
+TreeCCErrorFile	errors.c	/^FILE *TreeCCErrorFile = NULL;$/;"	v
+TreeCCErrorOnLine	errors.c	/^void TreeCCErrorOnLine(TreeCCInput *input, char *filename, long linenum,$/;"	f
+TreeCCErrorStripPath	errors.c	/^int TreeCCErrorStripPath = 0;$/;"	v
+TreeCCField	info.h	/^typedef struct _tagTreeCCField			TreeCCField;$/;"	t	typeref:struct:_tagTreeCCField
+TreeCCFieldCreate	node.c	/^void TreeCCFieldCreate(TreeCCContext *context, TreeCCNode *node,$/;"	f
+TreeCCGenerate	gen.c	/^void TreeCCGenerate(TreeCCContext *context)$/;"	f
+TreeCCGenerateC	gen_c.c	/^void TreeCCGenerateC(TreeCCContext *context)$/;"	f
+TreeCCGenerateCPP	gen_cpp.c	/^void TreeCCGenerateCPP(TreeCCContext *context)$/;"	f
+TreeCCGenerateCSharp	gen_cs.c	/^void TreeCCGenerateCSharp(TreeCCContext *context)$/;"	f
+TreeCCGenerateJava	gen_java.c	/^void TreeCCGenerateJava(TreeCCContext *context)$/;"	f
+TreeCCGenerateNonVirtuals	gen.c	/^void TreeCCGenerateNonVirtuals(TreeCCContext *context,$/;"	f
+TreeCCGeneratePHP	gen_php.c	/^void TreeCCGeneratePHP(TreeCCContext *context)$/;"	f
+TreeCCGenerateRuby	gen_ruby.c	/^void TreeCCGenerateRuby(TreeCCContext *context)$/;"	f
+TreeCCHashString	node.c	/^unsigned int TreeCCHashString(const char *str)$/;"	f
+TreeCCIncludeSkeleton	skeleton.c	/^void TreeCCIncludeSkeleton(TreeCCContext *context, TreeCCStream *stream,$/;"	f
+TreeCCInput	input.h	/^} TreeCCInput;$/;"	t	typeref:struct:__anon5
+TreeCCNextToken	input.c	/^int TreeCCNextToken(TreeCCInput *input)$/;"	f
+TreeCCNode	info.h	/^typedef struct _tagTreeCCNode			TreeCCNode;$/;"	t	typeref:struct:_tagTreeCCNode
+TreeCCNodeAddVirtual	node.c	/^void TreeCCNodeAddVirtual(TreeCCContext *context, TreeCCNode *node,$/;"	f
+TreeCCNodeAssignPositions	node.c	/^int TreeCCNodeAssignPositions(TreeCCNode *node)$/;"	f
+TreeCCNodeClearMarking	node.c	/^void TreeCCNodeClearMarking(TreeCCContext *context, int flags)$/;"	f
+TreeCCNodeCreate	node.c	/^TreeCCNode *TreeCCNodeCreate(TreeCCContext *context, long linenum,$/;"	f
+TreeCCNodeFind	node.c	/^TreeCCNode *TreeCCNodeFind(TreeCCContext *context, const char *name)$/;"	f
+TreeCCNodeFindByType	node.c	/^TreeCCNode *TreeCCNodeFindByType(TreeCCContext *context, const char *name)$/;"	f
+TreeCCNodeFree	node.c	/^void TreeCCNodeFree(TreeCCNode *node)$/;"	f
+TreeCCNodeHasAbstracts	node.c	/^int TreeCCNodeHasAbstracts(TreeCCContext *context, TreeCCNode *node)$/;"	f
+TreeCCNodeInheritsFrom	node.c	/^int TreeCCNodeInheritsFrom(TreeCCNode *nodea, TreeCCNode *nodeb)$/;"	f
+TreeCCNodeIsSingleton	node.c	/^int TreeCCNodeIsSingleton(TreeCCNode *node)$/;"	f
+TreeCCNodeValidate	node.c	/^void TreeCCNodeValidate(TreeCCContext *context)$/;"	f
+TreeCCNodeVisitAll	node.c	/^void TreeCCNodeVisitAll(TreeCCContext *context, TreeCCNodeVisitor visitor)$/;"	f
+TreeCCNodeVisitor	info.h	/^typedef void (*TreeCCNodeVisitor)(TreeCCContext *context, TreeCCNode *node);$/;"	t
+TreeCCNonVirtual	gen.h	/^} TreeCCNonVirtual;$/;"	t	typeref:struct:__anon3
+TreeCCNonVirtualFuncsC	gen_c.c	/^TreeCCNonVirtual const TreeCCNonVirtualFuncsC = {$/;"	v
+TreeCCNonVirtualFuncsJava	gen_java.c	/^TreeCCNonVirtual const TreeCCNonVirtualFuncsJava = {$/;"	v
+TreeCCNonVirtualFuncsPHP	gen_php.c	/^TreeCCNonVirtual const TreeCCNonVirtualFuncsPHP = {$/;"	v
+TreeCCNonVirtualFuncsRuby	gen_ruby.c	/^TreeCCNonVirtual const TreeCCNonVirtualFuncsRuby = {$/;"	v
+TreeCCOpen	input.c	/^void TreeCCOpen(TreeCCInput *input, char *progname,$/;"	f
+TreeCCOperation	info.h	/^typedef struct _tagTreeCCOperation		TreeCCOperation;$/;"	t	typeref:struct:_tagTreeCCOperation
+TreeCCOperationAddCase	oper.c	/^TreeCCOperationCase *TreeCCOperationAddCase$/;"	f
+TreeCCOperationCase	info.h	/^typedef struct _tagTreeCCOperationCase	TreeCCOperationCase;$/;"	t	typeref:struct:_tagTreeCCOperationCase
+TreeCCOperationCreate	oper.c	/^TreeCCOperation *TreeCCOperationCreate(TreeCCContext *context,$/;"	f
+TreeCCOperationFind	oper.c	/^TreeCCOperation *TreeCCOperationFind(TreeCCContext *context, char *name)$/;"	f
+TreeCCOperationFindCase	oper.c	/^TreeCCOperationCase *TreeCCOperationFindCase$/;"	f
+TreeCCOperationFree	oper.c	/^void TreeCCOperationFree(TreeCCOperation *oper)$/;"	f
+TreeCCOperationValidate	oper.c	/^void TreeCCOperationValidate(TreeCCContext *context)$/;"	f
+TreeCCOperationVisitAll	oper.c	/^void TreeCCOperationVisitAll(TreeCCContext *context,$/;"	f
+TreeCCOperationVisitor	info.h	/^typedef void (*TreeCCOperationVisitor)(TreeCCContext *context,$/;"	t
+TreeCCOptionProcess	options.c	/^int TreeCCOptionProcess(TreeCCContext *context, char *name, char *value)$/;"	f
+TreeCCOutOfMemory	errors.c	/^void TreeCCOutOfMemory(TreeCCInput *input)$/;"	f
+TreeCCParam	info.h	/^typedef struct _tagTreeCCParam			TreeCCParam;$/;"	t	typeref:struct:_tagTreeCCParam
+TreeCCParse	parse.c	/^void TreeCCParse(TreeCCContext *context)$/;"	f
+TreeCCResolvePathname	stream.c	/^char *TreeCCResolvePathname(char *absolute, char *relative)$/;"	f
+TreeCCSkelFiles	skels.c	/^const char * const TreeCCSkelFiles[] = {$/;"	v
+TreeCCSkel_c_gc_skel_c	skels.c	/^static char const TreeCCSkel_c_gc_skel_c[] =$/;"	v	file:
+TreeCCSkel_c_gc_skel_h	skels.c	/^static char const TreeCCSkel_c_gc_skel_h[] =$/;"	v	file:
+TreeCCSkel_c_skel_c	skels.c	/^static char const TreeCCSkel_c_skel_c[] =$/;"	v	file:
+TreeCCSkel_c_skel_h	skels.c	/^static char const TreeCCSkel_c_skel_h[] =$/;"	v	file:
+TreeCCSkel_cpp_gc_skel_cc	skels.c	/^static char const TreeCCSkel_cpp_gc_skel_cc[] =$/;"	v	file:
+TreeCCSkel_cpp_gc_skel_h	skels.c	/^static char const TreeCCSkel_cpp_gc_skel_h[] =$/;"	v	file:
+TreeCCSkel_cpp_skel_cc	skels.c	/^static char const TreeCCSkel_cpp_skel_cc[] =$/;"	v	file:
+TreeCCSkel_cpp_skel_h	skels.c	/^static char const TreeCCSkel_cpp_skel_h[] =$/;"	v	file:
+TreeCCStream	stream.h	/^typedef struct _tagTreeCCStream TreeCCStream;$/;"	t	typeref:struct:_tagTreeCCStream
+TreeCCStreamAddLiteral	stream.c	/^void TreeCCStreamAddLiteral(TreeCCStream *stream, char *code,$/;"	f
+TreeCCStreamBuf	stream.h	/^} TreeCCStreamBuf;$/;"	t	typeref:struct:_tagTreeCCStreamBuf
+TreeCCStreamClear	stream.c	/^void TreeCCStreamClear(TreeCCStream *stream)$/;"	f
+TreeCCStreamCode	stream.c	/^void TreeCCStreamCode(TreeCCStream *stream, char *code)$/;"	f
+TreeCCStreamCodeIndent	stream.c	/^void TreeCCStreamCodeIndent(TreeCCStream *stream, char *code, int indent)$/;"	f
+TreeCCStreamCodeIndentCustom	stream.c	/^void TreeCCStreamCodeIndentCustom(TreeCCStream *stream, char *code, $/;"	f
+TreeCCStreamCreate	stream.c	/^TreeCCStream *TreeCCStreamCreate(PTreeCCContext context,$/;"	f
+TreeCCStreamDefn	stream.h	/^} TreeCCStreamDefn;$/;"	t	typeref:struct:_tagTreeCCStreamDefn
+TreeCCStreamDestroy	stream.c	/^void TreeCCStreamDestroy(TreeCCStream *stream)$/;"	f
+TreeCCStreamFixLine	stream.c	/^void TreeCCStreamFixLine(TreeCCStream *stream)$/;"	f
+TreeCCStreamFlush	stream.c	/^int TreeCCStreamFlush(TreeCCStream *stream)$/;"	f
+TreeCCStreamFlushStdio	stream.c	/^int TreeCCStreamFlushStdio(TreeCCStream *stream, FILE *file)$/;"	f
+TreeCCStreamGetJava	stream.c	/^TreeCCStream *TreeCCStreamGetJava(PTreeCCContext context, char *className)$/;"	f
+TreeCCStreamHeaderBottom	stream.c	/^void TreeCCStreamHeaderBottom(TreeCCStream *stream)$/;"	f
+TreeCCStreamHeaderTop	stream.c	/^void TreeCCStreamHeaderTop(TreeCCStream *stream)$/;"	f
+TreeCCStreamLine	stream.c	/^void TreeCCStreamLine(TreeCCStream *stream, long linenum,$/;"	f
+TreeCCStreamPrint	stream.c	/^void TreeCCStreamPrint(TreeCCStream *stream, const char *format, ...)$/;"	f
+TreeCCStreamSourceBottom	stream.c	/^void TreeCCStreamSourceBottom(TreeCCStream *stream)$/;"	f
+TreeCCStreamSourceTop	stream.c	/^void TreeCCStreamSourceTop(TreeCCStream *stream)$/;"	f
+TreeCCStreamSourceTopCS	stream.c	/^void TreeCCStreamSourceTopCS(TreeCCStream *stream)$/;"	f
+TreeCCToken	input.h	/^} TreeCCToken;$/;"	t	typeref:enum:__anon4
+TreeCCTrigger	info.h	/^typedef struct _tagTreeCCTrigger		TreeCCTrigger;$/;"	t	typeref:struct:_tagTreeCCTrigger
+TreeCCValue	input.c	/^char *TreeCCValue(TreeCCInput *input)$/;"	f
+TreeCCVirtual	info.h	/^typedef struct _tagTreeCCVirtual		TreeCCVirtual;$/;"	t	typeref:struct:_tagTreeCCVirtual
+TypedefName	gen_c.c	/^static const char *TypedefName(TreeCCNode *node)$/;"	f	file:
+UpdateLineNum	stream.c	/^static void UpdateLineNum(TreeCCStream *stream, const char *buf)$/;"	f	file:
+Usage	main.c	/^static void Usage(char *progname)$/;"	f	file:
+VA_END	system.h	48;"	d
+VA_END	system.h	55;"	d
+VA_END	system.h	60;"	d
+VA_GET_LIST	system.h	49;"	d
+VA_GET_LIST	system.h	56;"	d
+VA_GET_LIST	system.h	61;"	d
+VA_LIST	system.h	46;"	d
+VA_LIST	system.h	53;"	d
+VA_LIST	system.h	58;"	d
+VA_START	system.h	47;"	d
+VA_START	system.h	54;"	d
+VA_START	system.h	59;"	d
+VERSION	config.h	89;"	d
+ValidateSuffixes	parse.c	/^static void ValidateSuffixes(TreeCCContext *context, const char *type,$/;"	f	file:
+VerifyHierarchy	oper.c	/^static void VerifyHierarchy(TreeCCContext *context, TreeCCOperation *oper,$/;"	f	file:
+VerifyMultiCoverage	oper.c	/^static void VerifyMultiCoverage(TreeCCContext *context, TreeCCOperation *oper,$/;"	f	file:
+VerifyMultiScan	oper.c	/^static void VerifyMultiScan(TreeCCContext *context, TreeCCOperation *oper,$/;"	f	file:
+Version	main.c	/^static void Version(void)$/;"	f	file:
+VirtualFactoryOption	options.c	/^static int VirtualFactoryOption(TreeCCContext *context, char *value, int flag)$/;"	f	file:
+Visit	node.c	/^static void Visit(TreeCCContext *context, TreeCCNode *node,$/;"	f	file:
+WriteBuffer	stream.c	/^static void WriteBuffer(TreeCCStream *stream, const char *buf)$/;"	f	file:
+WriteCPPFooters	gen_cpp.c	/^static void WriteCPPFooters(TreeCCContext *context)$/;"	f	file:
+WriteCPPHeaders	gen_cpp.c	/^static void WriteCPPHeaders(TreeCCContext *context)$/;"	f	file:
+WriteCSharpFooters	gen_cs.c	/^static void WriteCSharpFooters(TreeCCContext *context)$/;"	f	file:
+WriteCSharpHeaders	gen_cs.c	/^static void WriteCSharpHeaders(TreeCCContext *context)$/;"	f	file:
+WriteFooters	gen_c.c	/^static void WriteFooters(TreeCCContext *context)$/;"	f	file:
+WriteHeaders	gen_c.c	/^static void WriteHeaders(TreeCCContext *context)$/;"	f	file:
+WriteJavaFooters	gen_java.c	/^static void WriteJavaFooters(TreeCCContext *context)$/;"	f	file:
+WriteJavaHeaders	gen_java.c	/^static void WriteJavaHeaders(TreeCCContext *context)$/;"	f	file:
+WritePHPFooters	gen_php.c	/^static void WritePHPFooters(TreeCCContext *context)$/;"	f	file:
+WritePHPHeaders	gen_php.c	/^static void WritePHPHeaders(TreeCCContext *context)$/;"	f	file:
+WriteRubyFooters	gen_ruby.c	/^static void WriteRubyFooters(TreeCCContext *context)$/;"	f	file:
+WriteRubyHeaders	gen_ruby.c	/^static void WriteRubyHeaders(TreeCCContext *context)$/;"	f	file:
+WriteSourceSkeleton	gen_c.c	/^static void WriteSourceSkeleton(TreeCCContext *context, TreeCCStream *stream)$/;"	f	file:
+YYTEXT_POINTER	config.h	93;"	d
+_StreamPut	stream.c	/^static void _StreamPut(int ch, TreeCCStream *stream)$/;"	f	file:
+_TREECC_ERRORS_H	errors.h	22;"	d
+_TREECC_GEN_H	gen.h	22;"	d
+_TREECC_INFO_H	info.h	22;"	d
+_TREECC_INPUT_H	input.h	22;"	d
+_TREECC_OPTIONS_H	options.h	22;"	d
+_TREECC_PARSE_H	parse.h	22;"	d
+_TREECC_STREAM_H	stream.h	22;"	d
+_TREECC_SYSTEM_H	system.h	22;"	d
+_tagTreeCCContext	info.h	/^typedef struct _tagTreeCCContext$/;"	s
+_tagTreeCCField	info.h	/^struct _tagTreeCCField$/;"	s
+_tagTreeCCNode	info.h	/^struct _tagTreeCCNode$/;"	s
+_tagTreeCCOperation	info.h	/^struct _tagTreeCCOperation$/;"	s
+_tagTreeCCOperationCase	info.h	/^struct _tagTreeCCOperationCase$/;"	s
+_tagTreeCCParam	info.h	/^struct _tagTreeCCParam$/;"	s
+_tagTreeCCStream	stream.h	/^struct _tagTreeCCStream$/;"	s
+_tagTreeCCStreamBuf	stream.h	/^typedef struct _tagTreeCCStreamBuf$/;"	s
+_tagTreeCCStreamDefn	stream.h	/^typedef struct _tagTreeCCStreamDefn$/;"	s
+_tagTreeCCTrigger	info.h	/^struct _tagTreeCCTrigger$/;"	s
+_tagTreeCCVirtual	info.h	/^struct _tagTreeCCVirtual$/;"	s
+abstract_factory	info.h	/^	int				abstract_factory : 1;\/* Declare factory methods abstract *\/$/;"	m	struct:_tagTreeCCContext
+atEnd	stream.h	/^	int   atEnd;$/;"	m	struct:_tagTreeCCStreamDefn
+baseType	info.h	/^	char		   *baseType;$/;"	m	struct:_tagTreeCCContext
+block_size	info.h	/^	int				block_size;$/;"	m	struct:_tagTreeCCContext
+buffer	input.h	/^	char			buffer[TREECC_BUFSIZ];$/;"	m	struct:__anon5
+className	info.h	/^	char		   *className;	\/* Name of the enclosing class *\/$/;"	m	struct:_tagTreeCCOperation
+code	info.h	/^	char		   *code;		\/* Code associated with the case *\/$/;"	m	struct:_tagTreeCCOperationCase
+code	stream.h	/^	char *code;$/;"	m	struct:_tagTreeCCStreamDefn
+codeFilename	info.h	/^	char		   *codeFilename;\/* File that starts the code *\/$/;"	m	struct:_tagTreeCCOperationCase
+codeLinenum	info.h	/^	long		   	codeLinenum;\/* Line that starts the code *\/$/;"	m	struct:_tagTreeCCOperationCase
+commonHeader	info.h	/^	TreeCCStream   *commonHeader;		\/* Stream for common definitions *\/$/;"	m	struct:_tagTreeCCContext
+commonSource	info.h	/^	TreeCCStream   *commonSource;		\/* Stream for common source *\/$/;"	m	struct:_tagTreeCCContext
+context	stream.h	/^	PTreeCCContext	  context;		\/* Context that owns the stream *\/$/;"	m	struct:_tagTreeCCStream
+data	stream.h	/^	char	data[TREECC_STREAM_BUFSIZ];$/;"	m	struct:_tagTreeCCStreamBuf
+debugMode	info.h	/^	int				debugMode : 1;		\/* Enable debug output *\/$/;"	m	struct:_tagTreeCCContext
+defValue	info.h	/^	char		   *defValue;	\/* Default value for the operation *\/$/;"	m	struct:_tagTreeCCOperation
+defaultFile	stream.h	/^	int				  defaultFile : 1; \/* File is a discardable default *\/$/;"	m	struct:_tagTreeCCStream
+dirty	stream.h	/^	int				  dirty : 1;	\/* Something useful has been written *\/$/;"	m	struct:_tagTreeCCStream
+embedName	stream.h	/^	char		     *embedName;	\/* Name of the file to embed in source *\/$/;"	m	struct:_tagTreeCCStream
+errors	input.h	/^	int				errors;$/;"	m	struct:__anon5
+fields	info.h	/^	TreeCCField    *fields;		\/* List of fields for this node type *\/$/;"	m	struct:_tagTreeCCNode
+filename	info.h	/^	char		   *filename;	\/* File that defines the field *\/$/;"	m	struct:_tagTreeCCField
+filename	info.h	/^	char		   *filename;	\/* File that defines the node type *\/$/;"	m	struct:_tagTreeCCNode
+filename	info.h	/^	char		   *filename;	\/* File that starts the case definition *\/$/;"	m	struct:_tagTreeCCOperationCase
+filename	info.h	/^	char		   *filename;	\/* File where the operation is declared *\/$/;"	m	struct:_tagTreeCCOperation
+filename	input.h	/^	char		   *filename;$/;"	m	struct:__anon5
+filename	stream.h	/^	char		     *filename;		\/* Name of the file we are writing *\/$/;"	m	struct:_tagTreeCCStream
+filename	stream.h	/^	char *filename;$/;"	m	struct:_tagTreeCCStreamDefn
+firstBuf	stream.h	/^	TreeCCStreamBuf  *firstBuf;		\/* First buffer attached to the stream *\/$/;"	m	struct:_tagTreeCCStream
+firstCase	info.h	/^	TreeCCOperationCase *firstCase; \/* First case associated with operation *\/$/;"	m	struct:_tagTreeCCOperation
+firstChild	info.h	/^	TreeCCNode	   *firstChild;	\/* First child node type *\/$/;"	m	struct:_tagTreeCCNode
+firstDefn	stream.h	/^	TreeCCStreamDefn *firstDefn;	\/* First definition for the stream *\/$/;"	m	struct:_tagTreeCCStream
+flag	options.c	/^	int flag;$/;"	m	struct:__anon2	file:
+flags	info.h	/^	int				flags;		\/* Field flags *\/$/;"	m	struct:_tagTreeCCField
+flags	info.h	/^	int				flags;		\/* Flags associated with the operation *\/$/;"	m	struct:_tagTreeCCOperation
+flags	info.h	/^	int				flags;		\/* Flags associated with the parameter *\/$/;"	m	struct:_tagTreeCCParam
+flags	info.h	/^	int				flags;		\/* Node flags *\/$/;"	m	struct:_tagTreeCCNode
+force	info.h	/^	int				force : 1;			\/* Force the creation of files *\/$/;"	m	struct:_tagTreeCCContext
+forceCreate	stream.h	/^	int				  forceCreate : 1; \/* Force creation of the file *\/$/;"	m	struct:_tagTreeCCStream
+func	options.c	/^	int (*func)(TreeCCContext *context, char *value, int flag);$/;"	m	struct:__anon2	file:
+genCaseCall	gen.h	/^	void (*genCaseCall)(TreeCCContext *context, TreeCCStream *stream,$/;"	m	struct:__anon3
+genCaseFunc	gen.h	/^	void (*genCaseFunc)(TreeCCContext *context, TreeCCStream *stream,$/;"	m	struct:__anon3
+genCaseInline	gen.h	/^	void (*genCaseInline)(TreeCCContext *context, TreeCCStream *stream,$/;"	m	struct:__anon3
+genCaseSplit	gen.h	/^	void (*genCaseSplit)(TreeCCContext *context, TreeCCStream *stream,$/;"	m	struct:__anon3
+genEnd	gen.h	/^	void (*genEnd)(TreeCCContext *context, TreeCCStream *stream,$/;"	m	struct:__anon3
+genEndCase	gen.h	/^	void (*genEndCase)(TreeCCContext *context, TreeCCStream *stream,$/;"	m	struct:__anon3
+genEndSelectors	gen.h	/^	void (*genEndSelectors)(TreeCCContext *context, TreeCCStream *stream,$/;"	m	struct:__anon3
+genEndSwitch	gen.h	/^	void (*genEndSwitch)(TreeCCContext *context, TreeCCStream *stream,$/;"	m	struct:__anon3
+genEntry	gen.h	/^	void (*genEntry)(TreeCCContext *context, TreeCCStream *stream,$/;"	m	struct:__anon3
+genExit	gen.h	/^	void (*genExit)(TreeCCContext *context, TreeCCStream *stream,$/;"	m	struct:__anon3
+genSelector	gen.h	/^	void (*genSelector)(TreeCCContext *context, TreeCCStream *stream,$/;"	m	struct:__anon3
+genSplitEntry	gen.h	/^	void (*genSplitEntry)(TreeCCContext *context, TreeCCStream *stream,$/;"	m	struct:__anon3
+genStart	gen.h	/^	void (*genStart)(TreeCCContext *context, TreeCCStream *stream,$/;"	m	struct:__anon3
+genSwitchHead	gen.h	/^	void (*genSwitchHead)(TreeCCContext *context, TreeCCStream *stream,$/;"	m	struct:__anon3
+header	info.h	/^	TreeCCStream   *header;		\/* Stream to write header to *\/$/;"	m	struct:_tagTreeCCNode
+header	info.h	/^	TreeCCStream   *header;		\/* Stream to write header to *\/$/;"	m	struct:_tagTreeCCOperation
+headerStream	info.h	/^	TreeCCStream   *headerStream;		\/* Current header stream *\/$/;"	m	struct:_tagTreeCCContext
+input	info.h	/^	TreeCCInput	   *input;$/;"	m	struct:_tagTreeCCContext
+internal_access	info.h	/^	int				internal_access : 1; \/* Use "internal" classes in C# *\/$/;"	m	struct:_tagTreeCCContext
+isHeader	stream.h	/^	int				  isHeader : 1;	\/* File is a header *\/$/;"	m	struct:_tagTreeCCStream
+keyword	input.c	/^	const char *keyword;$/;"	m	struct:__anon1	file:
+kind_in_vtable	info.h	/^	int				kind_in_vtable : 1;	\/* Put kind value in vtable only *\/$/;"	m	struct:_tagTreeCCContext
+language	info.h	/^	int				language;$/;"	m	struct:_tagTreeCCContext
+lastBuf	stream.h	/^	TreeCCStreamBuf  *lastBuf;		\/* Last buffer attached to the stream *\/$/;"	m	struct:_tagTreeCCStream
+lastCase	info.h	/^	TreeCCOperationCase *lastCase;  \/* Last case associated with operation *\/$/;"	m	struct:_tagTreeCCOperation
+lastChild	info.h	/^	TreeCCNode	   *lastChild;	\/* Last child node type *\/$/;"	m	struct:_tagTreeCCNode
+lastDefn	stream.h	/^	TreeCCStreamDefn *lastDefn;		\/* Last definition for the stream *\/$/;"	m	struct:_tagTreeCCStream
+linenum	info.h	/^	long			linenum;	\/* Line where the field is defined *\/$/;"	m	struct:_tagTreeCCField
+linenum	info.h	/^	long			linenum;	\/* Line where the node type is defined *\/$/;"	m	struct:_tagTreeCCNode
+linenum	info.h	/^	long			linenum;	\/* Line where the operation is declared *\/$/;"	m	struct:_tagTreeCCOperation
+linenum	info.h	/^	long		   	linenum;	\/* Line that starts the case definition *\/$/;"	m	struct:_tagTreeCCOperationCase
+linenum	input.h	/^	long			linenum;$/;"	m	struct:__anon5
+linenum	stream.h	/^	long			  linenum;		\/* Line number we are currently on *\/$/;"	m	struct:_tagTreeCCStream
+linenum	stream.h	/^	long  linenum;$/;"	m	struct:_tagTreeCCStreamDefn
+main	main.c	/^int main(int argc, char *argv[])$/;"	f
+name	info.h	/^	char		   *name;		\/* Name of the field *\/$/;"	m	struct:_tagTreeCCField
+name	info.h	/^	char		   *name;		\/* Name of the operation *\/$/;"	m	struct:_tagTreeCCOperation
+name	info.h	/^	char		   *name;		\/* Name of the parameter *\/$/;"	m	struct:_tagTreeCCParam
+name	info.h	/^	char		   *name;		\/* Name of the virtual method *\/$/;"	m	struct:_tagTreeCCVirtual
+name	info.h	/^	char		   *name;		\/* Name of this node type *\/$/;"	m	struct:_tagTreeCCNode
+name	options.c	/^	const char *name;$/;"	m	struct:__anon2	file:
+next	info.h	/^	TreeCCField	   *next;		\/* Next field for the node type *\/$/;"	m	struct:_tagTreeCCField
+next	info.h	/^	TreeCCOperationCase *next;	\/* Next case for the operation *\/$/;"	m	struct:_tagTreeCCOperationCase
+next	info.h	/^	TreeCCParam	   *next;		\/* Next parameter for the operation *\/$/;"	m	struct:_tagTreeCCParam
+next	info.h	/^	TreeCCTrigger  *next;		\/* Next trigger for this case *\/$/;"	m	struct:_tagTreeCCTrigger
+next	info.h	/^	TreeCCVirtual  *next;		\/* Next virtual method for the node type *\/$/;"	m	struct:_tagTreeCCVirtual
+next	stream.h	/^	struct _tagTreeCCStreamBuf *next;$/;"	m	struct:_tagTreeCCStreamBuf	typeref:struct:_tagTreeCCStreamBuf::_tagTreeCCStreamBuf
+next	stream.h	/^	struct _tagTreeCCStreamDefn *next;$/;"	m	struct:_tagTreeCCStreamDefn	typeref:struct:_tagTreeCCStreamDefn::_tagTreeCCStreamDefn
+nextHash	info.h	/^	TreeCCNode	   *nextHash;	\/* Next in the name hash table *\/$/;"	m	struct:_tagTreeCCNode
+nextHash	info.h	/^	TreeCCOperation *nextHash;	\/* Next in the operation hash table *\/$/;"	m	struct:_tagTreeCCOperation
+nextHeader	info.h	/^	TreeCCOperationCase *nextHeader; \/* Next header for same code block *\/$/;"	m	struct:_tagTreeCCOperationCase
+nextSibling	info.h	/^	TreeCCNode	   *nextSibling;\/* Next sibling node type under parent *\/$/;"	m	struct:_tagTreeCCNode
+nextStream	stream.h	/^	TreeCCStream     *nextStream;	\/* Next stream associated with context *\/$/;"	m	struct:_tagTreeCCStream
+nextline	input.h	/^	long			nextline;$/;"	m	struct:__anon5
+no_singletons	info.h	/^	int				no_singletons : 1;	\/* Don't handle singletons specially *\/$/;"	m	struct:_tagTreeCCContext
+node	info.h	/^	TreeCCNode	   *node;		\/* Node type for the trigger *\/$/;"	m	struct:_tagTreeCCTrigger
+nodeHash	info.h	/^	TreeCCNode	   *nodeHash[TREECC_HASH_SIZE];$/;"	m	struct:_tagTreeCCContext
+nodeNumber	info.h	/^	int				nodeNumber;$/;"	m	struct:_tagTreeCCContext
+numCases	info.h	/^	int				numCases;	\/* Number of operation cases *\/$/;"	m	struct:_tagTreeCCOperation
+numTriggers	info.h	/^	int				numTriggers;\/* Number of trigger parameters *\/$/;"	m	struct:_tagTreeCCOperation
+number	info.h	/^	int				number;		\/* Number associated with this node type *\/$/;"	m	struct:_tagTreeCCNode
+number	info.h	/^	int				number;		\/* Reference number for code generation *\/$/;"	m	struct:_tagTreeCCOperationCase
+oper	info.h	/^	TreeCCOperation *oper;		\/* Operation block for the virtual *\/$/;"	m	struct:_tagTreeCCVirtual
+oper	info.h	/^	TreeCCOperation *oper;		\/* Operation this case is associated with *\/$/;"	m	struct:_tagTreeCCOperationCase
+operHash	info.h	/^	TreeCCOperation *operHash[TREECC_HASH_SIZE];$/;"	m	struct:_tagTreeCCContext
+outputDirectory	info.h	/^	char		   *outputDirectory;$/;"	m	struct:_tagTreeCCContext
+params	info.h	/^	TreeCCParam	   *params;		\/* Non-instance parameters *\/$/;"	m	struct:_tagTreeCCVirtual
+params	info.h	/^	TreeCCParam    *params;		\/* Parameters for the operation *\/$/;"	m	struct:_tagTreeCCOperation
+parent	info.h	/^	TreeCCNode	   *parent;		\/* Parent node type *\/$/;"	m	struct:_tagTreeCCNode
+parseLiteral	input.h	/^	int				parseLiteral;$/;"	m	struct:__anon5
+position	info.h	/^	int				position;	\/* Position within the tree for operations *\/$/;"	m	struct:_tagTreeCCNode
+posn	stream.h	/^	int				  posn;			\/* Position within the last buffer *\/$/;"	m	struct:_tagTreeCCStream
+print_lines	info.h	/^	int				print_lines : 1;	\/* Dont emit #line directives *\/$/;"	m	struct:_tagTreeCCContext
+progname	input.h	/^	char		   *progname;$/;"	m	struct:__anon5
+readOnly	input.h	/^	int				readOnly;$/;"	m	struct:__anon5
+readOnly	stream.h	/^	int				  readOnly : 1;	\/* File is read-only *\/$/;"	m	struct:_tagTreeCCStream
+reentrant	info.h	/^	int				reentrant : 1;		\/* Build a re-entrant system *\/$/;"	m	struct:_tagTreeCCContext
+refOnly	stream.h	/^	int   refOnly;$/;"	m	struct:_tagTreeCCStreamDefn
+returnType	info.h	/^	char		   *returnType;	\/* Return type for the operation *\/$/;"	m	struct:_tagTreeCCOperation
+returnType	info.h	/^	char		   *returnType;	\/* Return type for the virtual method *\/$/;"	m	struct:_tagTreeCCVirtual
+sawEOF	input.h	/^	int				sawEOF;$/;"	m	struct:__anon5
+size	info.h	/^	int				size;		\/* Dimension size for non-virtual operations *\/$/;"	m	struct:_tagTreeCCParam
+sortedCases	info.h	/^	TreeCCOperationCase **sortedCases; \/* Cases sorted for non-virtual ops *\/$/;"	m	struct:_tagTreeCCOperation
+source	info.h	/^	TreeCCStream   *source;		\/* Stream to write source to *\/$/;"	m	struct:_tagTreeCCNode
+source	info.h	/^	TreeCCStream   *source;		\/* Stream to write source to *\/$/;"	m	struct:_tagTreeCCOperation
+sourceStream	info.h	/^	TreeCCStream   *sourceStream;		\/* Current source stream *\/$/;"	m	struct:_tagTreeCCContext
+state_type	info.h	/^	char		   *state_type;$/;"	m	struct:_tagTreeCCContext
+stream	input.h	/^	FILE		   *stream;$/;"	m	struct:__anon5
+streamList	info.h	/^	TreeCCStream   *streamList;			\/* List of all streams *\/$/;"	m	struct:_tagTreeCCContext
+strip_filenames	info.h	/^	int				strip_filenames : 1; \/* Strip names in #line directives *\/$/;"	m	struct:_tagTreeCCContext
+text	input.h	/^	char		   *text;$/;"	m	struct:__anon5
+token	input.c	/^	TreeCCToken token;$/;"	m	struct:__anon1	file:
+token	input.h	/^	TreeCCToken		token;$/;"	m	struct:__anon5
+track_lines	info.h	/^	int				track_lines : 1;	\/* Track node creation lines *\/$/;"	m	struct:_tagTreeCCContext
+triggers	info.h	/^	TreeCCTrigger  *triggers;	\/* Trigger list for this case *\/$/;"	m	struct:_tagTreeCCOperationCase
+type	info.h	/^	char		   *type;		\/* Type associated with the field *\/$/;"	m	struct:_tagTreeCCField
+type	info.h	/^	char		   *type;		\/* Type for the parameter *\/$/;"	m	struct:_tagTreeCCParam
+use_allocator	info.h	/^	int				use_allocator : 1;	\/* Use the skeleton allocator *\/$/;"	m	struct:_tagTreeCCContext
+use_gc_allocator	info.h	/^	int				use_gc_allocator : 1; \/* Use the libgc allocator *\/$/;"	m	struct:_tagTreeCCContext
+value	info.h	/^	char		   *value;		\/* Default value for the field *\/$/;"	m	struct:_tagTreeCCField
+virtual_factory	info.h	/^	int				virtual_factory : 1;\/* Allow overrides of factory methods *\/$/;"	m	struct:_tagTreeCCContext
+virtuals	info.h	/^	TreeCCVirtual  *virtuals;	\/* List of virtual methods for this node *\/$/;"	m	struct:_tagTreeCCNode
+yy_replacement	info.h	/^	char		   *yy_replacement;$/;"	m	struct:_tagTreeCCContext
